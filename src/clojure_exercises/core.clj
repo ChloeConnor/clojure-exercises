@@ -1,6 +1,9 @@
 (ns clojure-exercises.core)
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn print-greeting [name]
+  (let [new (apply str "Hello, " name "!")]
+  (println new)))
+
+(defn -main
+  []
+  (print-greeting  "Chloe"))
