@@ -11,13 +11,15 @@
     (println new)
     ))
 
-(defn add-element-to-list [list]
-  (conj list "hi" "hello"))
+(defn add-element-to-list [list, number]
+  (let [new-list (conj list "hi" "hello")]
+    (if (> (count new-list) number)
+      (nth (take 1 new-list) 0) "sup")))
 
 (defn -main []
   (
     let [apples (add-three-numbers 1 2 3),
          chloe-person (Person. "chloe" "connor")
-         greeting (first (add-element-to-list ["yo"]))]
+         greeting (add-element-to-list ["yo", "hey"] 1)]
     (print-greeting greeting (:first-name chloe-person) apples)))
 
