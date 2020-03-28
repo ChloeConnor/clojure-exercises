@@ -19,8 +19,8 @@
 
 (defn -main []
   (
-    let [apples (add-three-numbers 1 2 3),
-         chloe-person (Person. "chloe" "connor"),
+    let [apples (add-three-numbers 1 2 3)
+         chloe-person (Person. "chloe" "connor")
          greeting (add-element-to-list ["yo", "hey"] 1)]
     (characters-to-remove "ABA")
     (print-greeting greeting (:first-name chloe-person) apples)))
