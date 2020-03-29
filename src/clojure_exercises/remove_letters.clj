@@ -3,7 +3,8 @@
 (defn characters-to-remove
   "For a given string of As and Bs find the number of
  characters to be removed so that no adjacent character
- is the same"
+ is the same."
+  ;instead of map indexed we can just use a vector and use nth function
   [input]
   (let [with-index (map-indexed vector input),
         mapped (for [x with-index] (if (=  (keys x) "A") 1 0))]
