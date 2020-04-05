@@ -1,0 +1,1 @@
+# Some notes from Living Clojure by Carin Meier 
