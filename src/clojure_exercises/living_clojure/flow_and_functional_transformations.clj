@@ -31,7 +31,7 @@
     (take take-number (cycle (take how-many (repeatedly #(rand-int 10)))))
     ))
 
-(defn chloe [people-map]
+(defn chloe-family [people-map]
   ((partial what-family :chloe) people-map))
 
 (defn get-full-name [names-list people-map]
@@ -44,7 +44,7 @@
         partner-map {:chloe :joe, :cas :john, :julie :mark}
         names-list '(:chloe :joe)]
     (println (connor? people-map :chloe))
-    (println (chloe another-people-map))
+    (println (chloe-family another-people-map))
     (println (what-family :chloe people-map))
     (println (find-relationship :cas partner-map))
     (println (get-some-random-numbers 3))
