@@ -1,4 +1,4 @@
-# web_app
+# web-app
 
 FIXME
 
