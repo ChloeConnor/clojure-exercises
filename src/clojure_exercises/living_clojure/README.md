@@ -1,5 +1,6 @@
 # Some code practise from Living Clojure by Carin Meier 
 
+Fundamentals:
 1. basic_collections
 2. flow_and_functional_transformations
 3. state_and_concurrency
@@ -8,3 +9,5 @@
 6. communication_with_core_async
 7. web_applications
 8. macros
+
+Training plan

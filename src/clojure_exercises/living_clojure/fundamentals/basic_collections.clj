@@ -24,9 +24,10 @@
 (defn -main []
   (let [my-list '(:chloe :joe :ben :cas :john)
         my-vector [1 2 3 4]
-        people-map {:chloe "connor", :joe "bellm"}]
+        people-map (hash-map :chloe "connor", :joe "bellm")]
     (println (get-a-surname people-map :chloe))
     (println (count-unique-vals people-map))
     (println (get-second-element my-list))
     (println (add-to-vector my-vector))
+    (println (get people-map :cas :default))
     ))
