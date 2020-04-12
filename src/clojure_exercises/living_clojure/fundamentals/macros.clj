@@ -1,4 +1,4 @@
-(ns clojure-exercises.living-clojure.macros)
+(ns clojure-exercises.living-clojure.fundamentals.macros)
 
 (defn get-greeting [greeting]
   (println (str greeting ", how are you?")))

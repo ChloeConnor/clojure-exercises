@@ -1,4 +1,4 @@
-(ns clojure-exercises.living-clojure.basic-collections)
+(ns clojure-exercises.living-clojure.fundamentals.basic-collections)
 
 (defn get-second-element [my-list]
   (first (rest my-list))

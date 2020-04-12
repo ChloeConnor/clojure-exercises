@@ -1,4 +1,4 @@
-(ns clojure-exercises.living-clojure.core-async
+(ns clojure-exercises.living-clojure.fundamentals.core-async
   (:require [clojure.core.async :as async]))
 
 (def food-channel (async/chan 2))

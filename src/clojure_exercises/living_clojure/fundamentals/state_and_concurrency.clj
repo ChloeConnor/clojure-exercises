@@ -1,4 +1,4 @@
-(ns clojure-exercises.living-clojure.state-and-concurrency)
+(ns clojure-exercises.living-clojure.fundamentals.state-and-concurrency)
 
 ;Atom Synchronous Uncoordinated
 ;Ref Synchronous Coordinated

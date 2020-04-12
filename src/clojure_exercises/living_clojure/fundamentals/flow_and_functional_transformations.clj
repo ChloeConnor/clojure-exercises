@@ -1,5 +1,5 @@
-(ns clojure-exercises.living-clojure.flow-and-functional-transformations
-  (:require [clojure-exercises.living-clojure.basic-collections :as bc])
+(ns clojure-exercises.living-clojure.fundamentals.flow-and-functional-transformations
+  (:require [clojure-exercises.living-clojure.fundamentals.basic-collections :as bc])
   (:require [clojure.string :as cs]))
 
 (defn connor? [people-map first-name]
